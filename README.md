@@ -1,6 +1,6 @@
-This file contains the codes of GAM/GLM-EE methods in the paper “Adaptive stratified sampling design in two-phase studies for average causal effect estimation” by Min Zeng, Qiyu Wang, Zijian Sui, Hong Zhang, and Jinfeng Xu.
+This file contains the codes of AdaStrat method in the paper “Adaptive stratified sampling design in two-phase studies for average causal effect estimation” by Min Zeng, Qiyu Wang, Zijian Sui, Hong Zhang, and Jinfeng Xu.
 
-"simulations.R" provides ready to run codes of the application of the AdaStrat method in simulated datasets with/without repeats.
+"simulations.R" provides ready-to-run codes of the application of the AdaStrat method in simulated datasets with/without repeats.
 
 "density_plot.R' provides codes for Figure 1 in the paper.
 
