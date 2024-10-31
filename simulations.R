@@ -13,9 +13,6 @@ library(caret)
 name = "01-01simulation"
 source("simulationfunctions.R")
 set.seed(1)
-if(! dir.exists(paste0("result/",name))){
-  dir.create(paste0("result/",name))
-}
 
 # Simulation settings 
 method_set <- c("aipw", "ipw", "reg")   # ATE estimators
@@ -61,6 +58,9 @@ for(j in 1:nrow(settings)){
 
 #########################################
 # Repeat
+if(! dir.exists(paste0("result/",name))){
+  dir.create(paste0("result/",name))
+}
 cores = 40
 trials =800 # repeats
 
